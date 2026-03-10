@@ -152,5 +152,5 @@
 }
 
 @utility socialMediaIcon {
-  @apply w-6 h-6 text-white group-hover:text-white hoverEffect;
+  @apply w-6 h-6;
 }

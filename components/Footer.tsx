@@ -1,10 +1,15 @@
 import React from "react";
 import Container from "./Container";
+import FooterTop from "./FooterTop";
+import FooterBottom from "./FooterBottom";
 
 const Footer = () => {
   return (
-    <footer>
-      <Container>Footer</Container>
+    <footer className="mb-40 bg-white border-t ">
+      <Container>
+        <FooterTop />
+        <FooterBottom />
+      </Container>
     </footer>
   );
 };

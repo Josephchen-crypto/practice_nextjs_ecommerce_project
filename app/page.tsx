@@ -1,11 +1,10 @@
 import Container from "@/components/Container";
-import { Button } from "@/components/ui/button";
+import HomeBanner from "@/components/HomeBanner";
 
 const Home = () => {
   return (
     <Container>
-      <h2 className="text-xl font-semibold ">Home</h2>
-      <Button variant="outline">Check out</Button>
+      <HomeBanner />
     </Container>
   );
 };

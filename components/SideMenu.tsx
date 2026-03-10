@@ -47,7 +47,7 @@ const SideMenu: FC<SideMenuProps> = ({ isMenuOpen, onClose }) => {
             </div>
           ))}
         </div>
-        <SocialMedia />
+        <SocialMedia iconClassName="hover:text-shop-light-green hover:border-shop-light-green hoverEffect" />
       </div>
     </div>
   );
