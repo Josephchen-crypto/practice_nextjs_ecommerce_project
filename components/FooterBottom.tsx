@@ -2,17 +2,18 @@ import React from "react";
 import Logo from "./Logo";
 import QuickLinks from "./QuickLinks";
 import SocialMedia from "./SocialMedia";
+import { SubText } from "./ui/text";
 
 const FooterBottom = () => {
   return (
     <div>
-      <div className="border-b flex items-start gap-10 py-15">
+      <div className="py-15 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="flex-1 space-y-5">
           <Logo />
-          <p>
+          <SubText className="text-gray-600 text-sm">
             Discover curated furniture collections at JosephChen, blending style
             and comfort to elevate your living space
-          </p>
+          </SubText>
           <SocialMedia
             className="justify-start text-dark/60"
             iconClassName="border-1 border-gray-300 hover:text-shop-light-green hover:border-shop-light-green hoverEffect"
